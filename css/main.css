@@ -1,4 +1,9 @@
 
+body {
+  
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;    
+  }
 img {
     display: block;
     width: 30%;
