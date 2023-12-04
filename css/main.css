@@ -1,9 +1,24 @@
+html{
+    font-size: 62.5%; 
+    /* 
+    taille de la police de caractère
+    62.5% * 16 = 10.00rem = root em
+    */
+}
+body{
+    font: 1.6rem sans-serif; /* taille + police 1.6rem */
+    margin: 0;
+    letter-spacing: 0.1rem; /* 1px */
+    line-height: 1.6; /* 16px */
 
-body {
-  
-    font-family: 'Avenir', sans-serif; 
-    color: #33475b;    
-  }
+}
+h1,p,ul{ /* contexte de balises ayant les mêmes props */
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    list-style: none;
+    letter-spacing: comic;
+}
 img {
     display: block;
     width: 30%;
