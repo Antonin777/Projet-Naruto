@@ -60,11 +60,12 @@ figure{
     border: auto .1rem white;
     padding: 1rem;
     background-color: var(--theme-letter-color);
-
+    border-radius: 1rem;
 }
 figure img{
     display: inline-block ;
     max-width: 100%;
+    border-radius: 1rem;
 }
 
 header section{
@@ -81,17 +82,21 @@ figure figcaption ul.list-movie li{
 }
 figure figcaption ul.list-movie li:nth-child(2n+1){ /*1/2 a parir du var*/
     background-color: var(--theme-bg-list);
-
+    border-radius: 1rem;
 }
 figure figcaption ul.list-movie li:nth-child(2n+2){
     background-color: rgb(0, 0, 0);
     color: white;
+    border-radius: 1rem;
 }
 details summary{
     line-height: 4rem;
     background-color: var(--theme-bg-list);
     padding-left: .5rem;
+    border-radius: 1rem;
 }
-details summary p{
-    background-color: var(--theme-bg-list);
+details p{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
 }
