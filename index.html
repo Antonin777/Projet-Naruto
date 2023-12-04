@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta nzme="description" content="Page Naruto">
+    <meta name="description" content="Page Naruto">
     <title>Naruto Uzumaki</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>
-            🍥Naruto Uzumaki
+            <span aria-hidden="true">🍥</span>Naruto Uzumaki (うずまきナルト)
         </h1>
     </header>
     <main>
@@ -30,13 +30,18 @@
                         <li>Éditeur: (ja) Shūeisha</li>
                         <li>Pré-adaptation: weekly shonen jump</li>
                         <li>Date de publication: 21 septembre 1999 </li>
-                        <li><details>Naruto(2002), Naruto Shippûden(2007)
-                            
-                            <summary>Adaptation: </summary></details></li>
+                        <li>
+                            <details class="Adaptation">
+                                <summary>Adaptation: </summary>
+                                <p>
+                                    Naruto(2002), Naruto Shippûden(2007)
+                                </p>
+                            </details>
+                        </li>
                         <li>Comédien de doublage(VO): junko takeuchi</li>
                     </ul>
                 </section>
-                    <details>
+                    <details class="description">
                         <summary> Description</summary>
                         <p>
                             Naruto Uzumaki est un jeune ninja de Konoha, révant un jours d'être hokage, le ninja le plus fort de konoha,
@@ -50,12 +55,17 @@
         </figure>
     </main>
     <footer>
+      
         <p>
-            &copy; - MIT - <time
+            &copy; - AntoWesh - <time
                                 datetime="2023-11-10">
                                 2023
-                            </time>
+                            </time><br>
+        <ion-icon name="logo-github"></ion-icon> 
         </p>    
+        
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
