@@ -95,7 +95,7 @@ figure figcaption ul.list-movie{
     line-height: 4rem;
 }
 figure figcaption ul.list-movie li{
-    padding: .1rem;
+    padding: .4rem;
 
 }
 figure figcaption ul.list-movie li:nth-child(2n+1){ /*1/2 a parir du var*/
@@ -108,17 +108,18 @@ figure figcaption ul.list-movie li:nth-child(2n+2){
     color: black;
     border-radius: 1rem;
 }
-details.Adaptaion  {
+details.Adaptaion p  {
     line-height: 4rem;
     background-color: var(--theme-bg-list);
-    padding-left: .4rem;
     border-radius: 1rem;
 }
 details.description {
-    line-height: 4rem;
+    line-height: 3rem;
     background-color: black;
     color: white;
     padding-left: .4rem;
+    padding-right: .4rem;
+    padding-bottom: .4rem;
     border-radius: 1rem;
 }
 p{
@@ -133,4 +134,11 @@ footer{
 }
 ion-icon{
     vertical-align: middle;
+}
+h2{
+    background-color: rgb(203, 9, 9);
+    color:black;
+    border-radius: 1rem;
+    margin-right: 77rem;
+    text-align:center;
 }
