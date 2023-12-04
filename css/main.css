@@ -41,7 +41,7 @@ h1,h2,h3,p,figure,ul {
     width: .9rem;
 }
 *::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 .1rem rgba(red, green, blue, alpha);
+    box-shadow: inset 0 0 .1rem orange;
 }
 
 *::-webkit-scrollbar-thumb{
