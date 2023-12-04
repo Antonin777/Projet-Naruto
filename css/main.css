@@ -1,26 +1,97 @@
+/*
+====================================================
+===============SECTION 1: CSS RESEST================
+====================================================*/
+
 html{
-    font-size: 62.5%; 
-    /* 
-    taille de la police de caractère
-    62.5% * 16 = 10.00rem = root em
-    */
-}
-body{
-    font: 1.6rem sans-serif; /* taille + police 1.6rem */
-    margin: 0;
-    letter-spacing: 0.1rem; /* 1px */
-    line-height: 1.6; /* 16px */
+   font-size: 62.5%;/* 16 px mult 62,5% = 10 rem*/
+
 
 }
-h1,p,ul{ /* contexte de balises ayant les mêmes props */
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    letter-spacing: .1rem; /* 1px*/
+    line-height: 1.6;
+    background-color: var(--theme-bg-color);
+    
+
+}
+h1,h2,h3,p,figure,ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
     font-weight: normal;
-    list-style: none;
-    letter-spacing: comic;
+
 }
-img {
-    display: block;
-    width: 30%;
-    margin: auto;
+*{
+    box-sizing: border-box;
+
+}
+
+
+/*
+====================================================
+===============SECTION 2: THEME CSS=================
+====================================================*/
+
+:root {
+    --theme-bg-color: #f39c12;
+    --theme-bg-header: #2d3436;  
+    --theme-bg-list: rgba(243, 157, 18, 0.588) ;
+    --theme-letter-color: white;
+    --theme-color-letter-default: black;
+}
+/* header */
+header{
+    background-color: var(--theme-bg-header);
+    margin-bottom: 5rem;    
+}
+
+header h1{
+    text-align: center;
+    color: var(--theme-letter-color);
+    line-height: 6.5rem;
+}
+
+figure{
+    max-width: 100rem;
+    margin: 0 auto;
+    border: auto .1rem white;
+    padding: 1rem;
+    background-color: var(--theme-letter-color);
+
+}
+figure img{
+    display: inline-block ;
+    max-width: 100%;
+}
+
+header section{
+    text-align: center;
+    color: var(--theme-letter-color);
+    line-height: 6.5rem;
+}
+figure figcaption ul.list-movie{
+    line-height: 4rem;
+}
+figure figcaption ul.list-movie li{
+    padding: .1rem;
+
+}
+figure figcaption ul.list-movie li:nth-child(2n+1){ /*1/2 a parir du var*/
+    background-color: var(--theme-bg-list);
+
+}
+figure figcaption ul.list-movie li:nth-child(2n+2){
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+details summary{
+    line-height: 4rem;
+    background-color: var(--theme-bg-list);
+    padding-left: .5rem;
+}
+details summary p{
+    background-color: var(--theme-bg-list);
 }
