@@ -101,3 +101,12 @@ h2{
         text-align: justify;
     }
 }
+@media screen and (max-width: 120rem) {
+    figure figcaption ul{
+        line-height: 6rem;
+    }
+    details p{
+        text-align: left;
+    }
+}
+
